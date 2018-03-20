@@ -16,4 +16,4 @@ RUN wget http://deployer.org/deployer.phar && \
 
 WORKDIR /project
 
-ENTRYPOINT ["/usr/local/bin/dep"]
+#ENTRYPOINT ["/usr/local/bin/dep"]
